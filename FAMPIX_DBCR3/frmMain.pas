@@ -1,5 +1,7 @@
 unit frmMain;
 
+//test branch
+
 interface
 
 uses
@@ -272,14 +274,14 @@ procedure TfmMain.psImageDetailsChange(Sender: TObject);
 begin
   Self.vleImageProps.Strings.Clear;
   Self.vleImageProps.Strings.AddPair('id','');
-  Self.vleImageProps.Strings.AddPair('Точная дата','');
-  Self.vleImageProps.Strings.AddPair('Интервал.Начало','');
-  Self.vleImageProps.Strings.AddPair('Интервал.Конец','');
-  Self.vleImageProps.Strings.AddPair('Место съемки','');
-  Self.vleImageProps.Strings.AddPair('Автор','');
-  Self.vleImageProps.Strings.AddPair('Кто на фото','');
-  Self.vleImageProps.Strings.AddPair('Тыльная сторона','');
-  Self.vleImageProps.Strings.AddPair('Истории','');
+  Self.vleImageProps.Strings.AddPair('           ','');
+  Self.vleImageProps.Strings.AddPair('        .      ','');
+  Self.vleImageProps.Strings.AddPair('        .     ','');
+  Self.vleImageProps.Strings.AddPair('            ','');
+  Self.vleImageProps.Strings.AddPair('     ','');
+  Self.vleImageProps.Strings.AddPair('           ','');
+  Self.vleImageProps.Strings.AddPair('               ','');
+  Self.vleImageProps.Strings.AddPair('       ','');
 end;
 
 procedure TfmMain.Splitter1Moved(Sender: TObject);
